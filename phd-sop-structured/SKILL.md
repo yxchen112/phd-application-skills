@@ -71,6 +71,10 @@ Many US programs (e.g. Purdue's Personal History Statement, UC "Personal History
 6. **Privacy and taste**: the applicant chooses how specific to be about hometown, family, income or politics; use the level they approve ("a small city in X Province"). Family appears only where it explains a choice or formation.
 7. **Internships and side work** get one paragraph framed as the person's experience (new city, new field, new team, what it changed), with technical detail left to the SOP; check the timeline matches the SOP.
 8. Length: follow the limit; if none, about one page (550–750 words). Close with the long-term goal and who it serves, without new facts.
+9. **Persistence needs visible effort**: name the concrete attempts in the setback story (they *are* the persistence) and end on the decision ("kept the goal, changed the method"), not on "I accepted it would not work". Never frame adaptation as effortless ("settling in was not hard"); say what was easy and what took longer.
+10. **Community prompts are answered by doing, not watching**: what you built, organized, taught or coordinated, for whom; cut "I enjoyed seeing…". Tie one sentence to the future group (e.g. a mix of fields the applicant already lives with).
+11. **Internal consistency check**: every "first time" claim, the order of methods/fields, and dates must agree across paragraphs and with the SOP; don't belittle the hometown in one paragraph and promise to help it in another; the outreach audience must match the claim.
+12. Translate role titles idiomatically (class "publicity officer", not a literal calque); use the target country's spelling (US: organized, centered); keep the long-term-goal wording different from the SOP's.
 
 Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (community/diversity) 20; coherent personal arc 15; complements not duplicates the SOP 10; authenticity & specificity 15; clarity, tone & naturalness 15. Also ask for tone risks for the target country's readers and timeline inconsistencies with the SOP.
 
