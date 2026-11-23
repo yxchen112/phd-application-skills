@@ -1,58 +1,101 @@
 ---
 name: phd-sop-structured
-description: Write or restructure a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard adcom-friendly shape - research question up front, project paragraphs with role and implication-level findings, a forward research plan, and school-specific faculty fit. Use when the user asks to write, fix, "make more standard/正规", polish or restructure an SOP for a PhD program, or adapt one SOP to a new school/advisor. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared Chinese SOP paragraph template, and merged with the statement-of-purpose (move framework, Chiu/Samraj research) and apply-sop-writer (fit/specificity, facts-fixed) skills.
+description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, and a scored sub-agent review of a real draft (v2, 2026-11).
 ---
 
-# PhD SOP, structured (正规版 SOP)
+# PhD SOP, structured
 
-An SOP is a **science story, not a life story**. The reader wants to know, fast: (1) what you want to study, (2) proof you can do research and own a project, (3) what you would do in the PhD, (4) why this school and these faculty. Everything else is optional.
+An SOP is a **science story, not a life story**. In one read, the committee wants: (1) what you want to study, (2) proof you can do research and make decisions, (3) the first thing you would work on, (4) why these faculty here. Everything else is optional.
 
 ## Hard rules
-1. **Sentence 2 of paragraph 1 names the research topic explicitly.** No childhood stories, quotes or "ever since I was young". At most 1–2 sentences of personal backstory, and only if true.
-2. **Proportions** (for ~900–1,100 words): opening ≈10%, research experience ≈50%, PhD plans ≈20%, school/faculty fit ≈20%.
-3. **Each project paragraph** follows: motivation (why I did it, tied to my interest) → lab/PI and my year → big-picture question → what *I* did (methods, decisions) → finding stated at the **implication** level (what it means, not raw numbers) → how it fed my interest → outcome (paper / talk / status) in the last sentence.
-4. **Chain projects with a causal transition**: "Realizing that X, I next wondered Y, which led to project 2." The thread must be one question that deepens.
-5. **No self-praising adjectives/adverbs** about yourself or your work ("efficiently", "productive", "passionate", "innovative", "successfully"). Show difficulty and results through facts.
-6. **State your contribution precisely** (designed/ran/wrote vs helped). Never inflate a supporting role; never imply a PI has agreed to take you unless they have.
-7. **Faculty paragraphs (1–2)**: name the PI → one specific, verified recent result of theirs → what you would study with them, built on that result and on your thread → why it matters. Verify every claim about their work from their papers or abstracts.
-8. **School-swap test**: if you can replace the school name and the paragraph still works, it is too generic. Mention concrete resources only if verified.
-9. **Ending**: skills you bring → what you want to learn → long-term aim / implication → why this university is the place. No promises of outcomes, no new stories.
-10. Follow the program's prompt, word/page limit and any instruction about naming faculty. Keep the user's own facts and wording where they are good; minimal edits over rewrites; apply the user's de-AI preferences (no triads, colon reveals, aphorism closers, generic praise).
 
-## Merged rules from other SOP skills (statement-of-purpose, apply-sop-writer)
-If those two skills are installed (`statement-of-purpose`, `apply-sop-writer`), read their `references/` for depth when needed (move-framework.md, use-case-research-phd.md, revision-checklist.md, fluency-*.md, prose-craft.md, statement-conventions-by-system.md).
-11. **Moves behind the template** (Samraj & Monk 2008; Chiu 2015/2016): Introduction → Establishing credentials (education, research, work) → Reasons for applying → (optional extra-curricular) → Conclusion. In strong SOPs credentials and reasons are **braided**: each past fact is pointed at the next step in the same paragraph.
-12. **Gap → Positive gains.** Name one honest skill/knowledge gap (e.g. data assimilation, UQ, rigorous probability) and show how this program/faculty closes it. It reads as direction, not weakness.
-13. **Research fit is the spine for a PhD.** US doctoral SOPs are often the only research channel and are read as a writing sample: show methodological readiness and a researchable question, not general enthusiasm. If a separate research proposal is required, the SOP focuses on fit and trajectory and points to it.
-14. **No brochure echo, no praising a country/city.** Never repeat a program's selling points ("world-class faculty", "vibrant environment"). Use only verified differentiators (named PI result, facility, compulsory component) and tie each to a need of yours.
-15. **Facts fixed, weights vary across schools.** Adapting to another school changes order, emphasis and which work is foregrounded — never what the applicant did. No new claims per school.
-16. **Self-construction with evidence.** Build 2–3 coherent selves (e.g. careful modeller, physically minded experimenter-at-heart, independent problem-solver) and show each through an episode, never by adjectives.
-17. **Integrity.** No fabrication of experiences, results or faculty facts; the SOP stays the applicant's own words and facts. Help structure and polish; do not disguise authorship. If the program asks about AI use, disclose truthfully.
-18. **L2 writers** (Chinese applicants): prefer short clear sentences, concrete verbs and correct articles over ornate vocabulary; a plain, precise SOP beats an over-polished one.
-19. **Length default**: 1,000–1,200 words for a US PhD SOP when no limit is given; follow any stated limit.
+### Opening and thread
+1. **Sentence 2 of paragraph 1 names the research topic.** No childhood stories, quotes, "ever since I was young". At most 1–2 sentences of backstory, only if true.
+2. **State the research question in full once.** Every later mention must add something new (a sub-question, a method, a test case) or be cut.
+3. **One thread.** Projects form a chain in which each one answers a limitation of the previous one. If a project does not serve the thread, give it one linking sentence or leave it to the CV.
 
-## Paragraph template (fill, merge or drop as needed)
-1. **Hook + topic.** S1: what I am interested in. S2: *what I want to study* (explicit). S3: build on S2 — what this topic actually is. S4: why it is worth studying (real-world use). S5: what solving it would enable. Last: "I believe [University] is the place to examine [restated topic]."
-2. **Origin of the specific interest** (one course, project, talk or paper that started *this* interest, not the whole field).
-3. **Project 1** (rule 3).
-4. **Transition + Project 2** (rules 3–4).
-5. **Project 3 / ongoing work** (can be exploratory: big picture + what I am doing; no results needed). Internship or extra project can sit here briefly.
-6. **In graduate school, I hope to further …** — PhD research interests that continue the thread (goldilocks: specific subfield, not one experiment, not "solve turbulence").
-7. **Faculty 1** (rule 7).
-8. **Faculty 2 / collaborator** (optional; can be in another department if relevant).
-9. **Close** (rule 9).
-A Personal History / Diversity statement is separate: that is where life story, background, challenges and service go.
+### Project paragraphs (≈50% of the text)
+4. One project per paragraph, about 120–180 words, in this order: motivation → lab/PI and year → big-picture question → **what I did, with at least one "I + verb" decision** → finding at the implication level (what it means, not a table of numbers) → what I concluded or now do differently → outcome (paper/talk/status) in the last sentence.
+5. Expand every acronym, and say what a named model does before saying how well it did.
+6. **Transitions name the limitation of the last project and why the next approach addresses it** ("Because one snapshot cannot hold the flow's history, I moved to models that carry the past forward").
+7. **Failures and pivots read as decisions**: scientific reason first, logistics in one clause, then what changed. Never let a pivot read as an excuse.
+8. No self-praising adjectives/adverbs (efficient, productive, passionate, innovative, successfully). Show difficulty through facts. State contribution precisely; never inflate a supporting role.
+
+### PhD plan (≈20%)
+9. The plan paragraph names **a first question, the systems/data to test it on, and the method family**, reusing the applicant's existing evidence. Pitch it as a first-year project: narrower than the field, broader than one experiment, open to change.
+
+### Faculty and fit (≈20%)
+10. Name one primary advisor and at most two others. For each: one specific, **verified** recent result → what you would do with them building on it → why it matters. Confirm they are active and recruiting.
+11. **Gap → gains inside the faculty paragraph**: name one honest gap (a method, theory, skill) and how this person/program closes it.
+12. **School-swap test**: if the paragraph still works with another school's name, rewrite it. No brochure echo ("world-class faculty", "vibrant environment"), no praise of a country/city, no university-wide resource unless its name is verified and tied to a need.
+
+### Close (≈10%)
+13. Long-term goal plus one concrete reason this place fits. **No new facts, no re-listing of skills already shown.** Exclude family, partner, geography and cost; they belong in a personal statement if anywhere.
+
+### Proportions and length
+14. Default length: follow the stated limit; if none, 1,000–1,200 words for a US PhD. Proportions: opening ≈10%, research ≈50%, plan ≈20%, fit ≈15–20%, close ≈5–10%.
+15. Limits: 500 words → one project and one faculty member; 800 → two projects; 1,000–1,200 → full template. Cut in this order: origin story, third project, second faculty member.
+
+### Integrity
+16. No fabrication of experiences, results or faculty facts; the applicant's facts and good phrasing stay. Help structure and polish; do not disguise authorship. If a program asks about AI use, disclose truthfully.
+17. Every claim must survive a two-minute spoken answer; flag anything the applicant could not explain without notes.
+
+## Paragraph template (slots, not text to copy)
+The bracketed labels are **slot names**. Never paste phrases like "I believe [X] is the place…" or "In graduate school, I hope to further…".
+1. [Interest + topic] S1 interest; S2 topic; then what the topic is, why it matters, what solving it enables — no "from X to Y" sweeps, no moral closers.
+2. [Origin of this specific interest] one course/project/paper.
+3. [Project 1] rule 4.
+4. [Transition + Project 2] rules 4–6.
+5. [Project 3 / ongoing] may have no result; a side project or internship gets one sentence that ties it to the thread.
+6. [First PhD question] rule 9.
+7. [Faculty 1 + gap→gains] rules 10–12.
+8. [Faculty 2 / collaborator] optional, can be another department (co-advising).
+9. [Close] rule 13.
+
+## Profiles and conventions
+- **Few or no publications**: foreground decisions, negative results, code, theses and reproducible artifacts; "in preparation" only if a draft exists.
+- **Career changers**: explain the turn once, then translate work tasks into research skills (question, method, evidence).
+- **Interdisciplinary**: name the home discipline, the borrowed tools and the question that needs both.
+- **Separate personal/diversity statement required**: keep life story, obstacles, service there; do not duplicate.
+- **US**: research + fit, 1–2 pages, faculty named. **UK**: often a fixed supervisor/project — address it and pair with the proposal. **EU funded posts**: answer the position description point by point. **HK RPg/HKPFS**: supervisor contact expected; the proposal carries the research, the statement carries readiness.
+- **Facts fixed, weights vary across schools**: adapting changes order and emphasis, never what the applicant did.
+- **L2 writers**: short clear sentences, concrete verbs, correct articles beat ornate vocabulary.
+
+## De-AI pass (readability and authenticity, not detector evasion)
+1. No three-item lists in a row; prefer two items; keep a triad only if each item carries weight.
+2. No colon reveals ("X changed how I think: …"); state the finding directly.
+3. No sentence ending in a general moral ("because a model is only useful if…").
+4. No "not X but Y" / "rather than only" contrasts unless the contrast is the point.
+5. No "from X to Y" range sweeps.
+6. Sentences ≤30 words where possible; split anything that needs a reread; no lists nested inside lists.
+7. Every "it/this/such" has an obvious referent in the same or previous sentence.
+8. A signature word ("faithful", "trust", "long-run", "robust") at most twice.
+9. Concrete nouns (stress field, rollout, nozzle) over abstract stacks (admissibility, faithfulness, variability).
+10. Each paragraph has at least one plain detail only this applicant could write.
+11. Vary paragraph openings; no run of "I…" or "In…" starts; no listing words like "also" to bolt on a project.
+12. Read aloud: anything you would not say to a professor in person gets rewritten.
+13. Delete any sentence whose removal loses no fact.
+14. Keep the applicant's own phrasing where it is clear, even if less polished; the most authentic fix is the applicant rewriting key paragraphs in their own words.
+15. Detectors (e.g. GPTZero) judge statistical predictability; trimming words rarely changes their verdict. Aim for clear, specific prose and honest disclosure, not detector scores.
 
 ## Workflow
-1. Read the prompt and limits; list the 2–3 strongest experiences; confirm facts with the user.
-2. Verify faculty work (abstracts, homepage) before writing rule-7 sentences.
-3. Draft with the template; then check: topic in S2? ~50% research? each project ends with an outcome? causal transitions? school-swap test? adjectives removed? word count?
-4. Give the user a short Chinese summary of the structure and any facts that need confirmation; build PDF if the portal needs an upload.
+1. **Intake**: prompt, limit, required companion documents (personal statement? proposal?), faculty list; 2–3 strongest experiences; confirm facts with the user.
+2. **Verify** each faculty claim from abstracts/homepages; record sources.
+3. **Draft** with the template and hard rules.
+4. **Score** with an independent sub-agent (prompt below); apply fixes; re-run the de-AI pass.
+5. **Deliver**: English text, a Chinese side-by-side if the user wants it, a list of facts needing confirmation, PDF if the portal needs an upload, plus **three interview talking points and the two questions a committee is most likely to ask** from the SOP.
 
-## Revision checklist (Wordvice + Lucy Lai)
-- Does it answer the prompt and fit the limit?
-- Is the reason for a PhD clear, and the research topic visible in the first two sentences?
-- Can a reader say what *I* did in each project and what I concluded?
-- Are program/faculty details accurate and tied to my goals (school-swap test)?
-- Have repetition and unsupported claims been cut?
-- Ask a reader to state my core goal and my strongest evidence after one read.
+### Sub-agent review prompt (score /100)
+"Review this PhD SOP as an admissions committee member in [field] and as a careful human reader. Do not edit files. (1) Score /100: research question & thread 20, research ability & ownership 25, PhD plan specificity 15, faculty/program fit (verified, non-generic) 15, structure & proportions 10, prose clarity & naturalness 15; 1–3 deductions each. (2) Top problems a committee member would notice: quote, why, fix of equal or shorter length. (3) Human-reader pass: quote sentences that read as AI-written or need a reread; plainer rewrite with the same facts. (4) Check the skill's hard rules and list violations. Do not suggest adding facts."
+
+## Revision checklist
+- Answers the prompt and fits the limit?
+- Topic visible in the first two sentences; question stated in full only once?
+- In each project, can a reader say what *I* decided and what I concluded?
+- Is there a concrete first PhD question?
+- Faculty paragraphs pass the school-swap test, with verified details and gap→gains?
+- Close adds nothing new and contains no family/geography?
+- De-AI pass done; a reader can state the core question and strongest evidence after one read?
+
+## Sources and related skills
+Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `humanizer` covers general de-AI patterns.
