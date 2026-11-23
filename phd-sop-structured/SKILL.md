@@ -1,6 +1,6 @@
 ---
 name: phd-sop-structured
-description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, and a scored sub-agent review of a real draft (v2, 2026-11).
+description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Also covers the companion Personal History / diversity / personal statement that US programs pair with the SOP. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor, or write the personal history statement that goes with it. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, and a scored sub-agent review of a real draft (v2, 2026-11).
 ---
 
 # PhD SOP, structured
@@ -60,6 +60,19 @@ The bracketed labels are **slot names**. Never paste phrases like "I believe [X]
 - **US**: research + fit, 1–2 pages, faculty named. **UK**: often a fixed supervisor/project — address it and pair with the proposal. **EU funded posts**: answer the position description point by point. **HK RPg/HKPFS**: supervisor contact expected; the proposal carries the research, the statement carries readiness.
 - **Facts fixed, weights vary across schools**: adapting changes order and emphasis, never what the applicant did.
 - **L2 writers**: short clear sentences, concrete verbs, correct articles beat ornate vocabulary.
+
+## Companion personal statement (Personal History / Diversity / Personal Statement)
+Many US programs (e.g. Purdue's Personal History Statement, UC "Personal History", diversity statements) ask for a second essay about the person, not the research.
+1. **Answer each required prompt in its own visible stretch**, in the prompt's order and words (e.g. "persistent and resourceful", "contribute to a diverse academic community"). Optional prompts (mitigating factors) only if there is something real to explain.
+2. **Complement, never duplicate the SOP.** Research appears only as evidence of character: one setback story told from the human side (what you tried, what you accepted, what you did next), not the method or results.
+3. **One arc, not a list of virtues.** Find the applicant's recurring pattern (e.g. leaving a familiar place to learn more; moving between fields when a problem demands it) and let each paragraph be one instance of it: background → formation → setbacks/new environments → service/community → why this PhD and this move → long-term goal.
+4. **Each paragraph carries one prompt and one concrete episode**; claims like "independent", "adaptable", "resourceful" appear only after the episode that shows them, at most once each.
+5. **Moving abroad / choosing a country**: give the positive pull (resources, people, breadth) and the personal logic; never disparage the home country or institution; avoid "escape" and "path dependence" language.
+6. **Privacy and taste**: the applicant chooses how specific to be about hometown, family, income or politics; use the level they approve ("a small city in X Province"). Family appears only where it explains a choice or formation.
+7. **Internships and side work** get one paragraph framed as the person's experience (new city, new field, new team, what it changed), with technical detail left to the SOP; check the timeline matches the SOP.
+8. Length: follow the limit; if none, about one page (550–750 words). Close with the long-term goal and who it serves, without new facts.
+
+Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (community/diversity) 20; coherent personal arc 15; complements not duplicates the SOP 10; authenticity & specificity 15; clarity, tone & naturalness 15. Also ask for tone risks for the target country's readers and timeline inconsistencies with the SOP.
 
 ## De-AI pass (readability and authenticity, not detector evasion)
 1. No three-item lists in a row; prefer two items; keep a triad only if each item carries weight.
