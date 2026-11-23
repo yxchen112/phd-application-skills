@@ -1,0 +1,7 @@
+{"lang":"en","months":12,"out":"fig_gantt.png","tasks":[
+{"label":"Step 1: solver validation; pilot chain at Re$_\\tau$ = 180","start":1,"end":3},
+{"label":"Step 2: Re$_\\tau$ = 395, 590 database; twin groups","start":3,"end":7},
+{"label":"Step 2: Re$_\\tau$ = 1000; sweeps; $\\delta/k_t$ check; full span","start":6,"end":9},
+{"label":"Step 3: features; symbolic regression; selection in LES","start":4,"end":9},
+{"label":"Step 4: a posteriori tests on the held-out family","start":8,"end":11},
+{"label":"Manuscript writing","start":10,"end":12}]}

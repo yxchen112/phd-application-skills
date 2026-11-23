@@ -1,0 +1,7 @@
+{"lang":"zh","months":12,"out":"fig_gantt_zh.png","tasks":[
+{"label":"第 1 步：求解器验证；Re$_\\tau$ = 180 试点全流程","start":1,"end":3},
+{"label":"第 2 步：Re$_\\tau$ = 395、590 数据库；孪生表面组","start":3,"end":7},
+{"label":"第 2 步：Re$_\\tau$ = 1000；密集扫描；δ/k$_t$ 检验；全展向","start":6,"end":9},
+{"label":"第 3 步：特征分析；符号回归；LES 中筛选","start":4,"end":9},
+{"label":"第 4 步：留出表面族上的后验检验","start":8,"end":11},
+{"label":"论文撰写","start":10,"end":12}]}
