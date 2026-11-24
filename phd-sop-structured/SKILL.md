@@ -1,6 +1,6 @@
 ---
 name: phd-sop-structured
-description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Also covers the companion Personal History / diversity / personal statement that US programs pair with the SOP. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor, or write the personal history statement that goes with it. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, and a scored sub-agent review of a real draft (v2, 2026-11).
+description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Also covers the companion Personal History / diversity / personal statement that US programs pair with the SOP. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor, or write the personal history statement that goes with it. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, a scored sub-agent review of a real draft (v2, 2026-11), and two admitted SOPs (Stanford CS, Berkeley Chemistry).
 ---
 
 # PhD SOP, structured
@@ -40,10 +40,30 @@ An SOP is a **science story, not a life story**. In one read, the committee want
 16. No fabrication of experiences, results or faculty facts; the applicant's facts and good phrasing stay. Help structure and polish; do not disguise authorship. If a program asks about AI use, disclose truthfully.
 17. Every claim must survive a two-minute spoken answer; flag anything the applicant could not explain without notes.
 
+## Lessons from two admitted SOPs
+Distilled from an admitted Stanford CS SOP (2018, data science; many papers, cliché-heavy prose) and an admitted Berkeley Chemistry SOP (Fall 2026, experiment → computation → quantum). Use the moves below; do not copy their wording.
+
+**Moves worth using**
+1. **Capability-gap opening.** Open with the limit the applicant hit in their own work, in the form "I could do X, but I could not explain, predict or control Y". Then state the long-term goal in one sentence. This counts as the topic sentence for rule 1, and it is stronger than any quote or childhood story.
+2. **Roadmap paragraph before the projects.** Name the two lines of work, such as experiment and computation or theory and application, and the PhD directions they lead to. Include **one explicit question sentence** ("A central question driving my research is: …?"). The project paragraphs then read as evidence for that question.
+3. **A boundary finding as the hinge.** Report where your own result stops working (it holds for case A but weakens for case B; the model captures trends but misses local accuracy). Then make that limit the reason for the next project or for the PhD plan. Readers trust this more than an unqualified success, and it puts rule 6 into practice.
+4. **Evidence density beats polish.** The CS sample got in despite generic prose because every project named the PI, institution, year, data scale, the applicant's own "I proposed / I developed" decision, and the venue and status. With three or more outputs, cite them as [1], [2] in the text and add a short numbered References list on a separate page, if the program allows extra pages. State each status exactly: published, accepted, under review, submitted, in preparation.
+5. **One synthesis sentence per stage.** After a group of related projects, write one sentence on what they taught the applicant together ("Together, these projects showed me how …"). Use it once per stage, not at the end of every paragraph.
+6. **Breadth in one paragraph.** Collaborations off the main line share a single paragraph, with the partner, topic and venue only.
+7. **Primary-advisor paragraph as a timeline.** Say when you first met their work, during which project. Name one specific recent paper (year, venue) and what it showed. Say how it **directly changed something you did**. Add their newest direction (a recent collaboration or preprint) and how your background maps onto it. Each secondary faculty member gets one sentence tied to one concrete piece of your experience. Close with how the groups together form the co-advising environment you need.
+8. **Page header.** Put the name, program, degree and term on every page, so a page that gets separated in review still identifies the applicant.
+
+**Habits not to copy, even though both were admitted**
+- Aphorism openings and "fascinated", "passionate", "dream", "triumph" or "state-of-the-art".
+- A paragraph that re-lists skills already shown, which breaks rule 13.
+- Brochure lines such as "ideal environment", "groundbreaking research for a better future" or "strength in collaborative research".
+- Sentences over 35 words, and abstract noun stacks.
+- In these samples the strength of the evidence carried the weak prose. An applicant with less evidence cannot count on that.
+
 ## Paragraph template (slots, not text to copy)
 The bracketed labels are **slot names**. Never paste phrases like "I believe [X] is the place…" or "In graduate school, I hope to further…".
-1. [Interest + topic] S1 interest; S2 topic; then what the topic is, why it matters, what solving it enables — no "from X to Y" sweeps, no moral closers.
-2. [Origin of this specific interest] one course/project/paper.
+1. [Interest + topic] S1 interest, or the capability gap from your own work ("I could X but could not Y"). S2 topic. Then what the topic is, why it matters and what solving it enables. No "from X to Y" sweeps, no moral closers.
+2. [Origin of this specific interest, or roadmap] one course, project or paper; or the two lines of work plus one explicit question sentence.
 3. [Project 1] rule 4.
 4. [Transition + Project 2] rules 4–6.
 5. [Project 3 / ongoing] may have no result; a side project or internship gets one sentence that ties it to the thread.
@@ -109,10 +129,12 @@ Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (commu
 - Answers the prompt and fits the limit?
 - Topic visible in the first two sentences; question stated in full only once?
 - In each project, can a reader say what *I* decided and what I concluded?
-- Is there a concrete first PhD question?
+- Is there a concrete first PhD question, stated once as an explicit question sentence?
+- Does at least one project report where its result stops working, and use that as the bridge to the next step?
+- For the primary advisor: is there a specific recent paper, and a link to something the applicant actually did?
 - Faculty paragraphs pass the school-swap test, with verified details and gap→gains?
 - Close adds nothing new and contains no family/geography?
 - De-AI pass done; a reader can state the core question and strongest evidence after one read?
 
 ## Sources and related skills
-Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `humanizer` covers general de-AI patterns.
+Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; two admitted SOPs shared as samples (Stanford CS 2018; UC Berkeley Chemistry, Fall 2026), distilled into moves, not copied; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `humanizer` covers general de-AI patterns.
