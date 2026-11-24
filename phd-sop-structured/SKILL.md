@@ -38,6 +38,7 @@ An SOP is a **science story, not a life story**. In one read, the committee want
 15. Limits: 500 words → one project and one faculty member; 800 → two projects; 1,000–1,200 → full template. Cut in this order: origin story, third project, second faculty member.
 
 ### Integrity
+16a. **Check the program's AI policy in the application system before drafting.** Some programs (e.g. Cornell's Graduate School, 2026) forbid using GenAI to outline, draft or write any substantive part of the statements and require an AI-use disclosure. There, do not draft or rewrite: limit help to brainstorming by conversation, answering questions, grammar/spelling checks of the applicant's own text, form fields, and the disclosure wording.
 16. No fabrication of experiences, results or faculty facts; the applicant's facts and good phrasing stay. Help structure and polish; do not disguise authorship. If a program asks about AI use, disclose truthfully.
 17. Every claim must survive a two-minute spoken answer; flag anything the applicant could not explain without notes.
 
