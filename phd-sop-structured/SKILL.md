@@ -1,6 +1,6 @@
 ---
 name: phd-sop-structured
-description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Also covers the companion Personal History / diversity / personal statement that US programs pair with the SOP. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor, or write the personal history statement that goes with it. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, a scored sub-agent review of a real draft (v2, 2026-11), and two admitted SOPs (Stanford CS, Berkeley Chemistry).
+description: Write, restructure, review or adapt a PhD Statement of Purpose (SOP / Academic Statement of Purpose) into the standard admissions shape - research question in sentence 2, one-project-per-paragraph evidence with the applicant's own decisions, a concrete first PhD question, verified faculty fit, and a de-AI readability pass. Also covers the companion Personal History / diversity / personal statement that US programs pair with the SOP. Use when the user asks to write, fix, make "more standard/正规", polish, review, score or de-AI an SOP for a PhD program, or adapt one SOP to a new school/advisor, or write the personal history statement that goes with it. Distilled from the Wordvice SOP guide, Lucy Lai's "All About PhD Applications", a widely shared paragraph template, genre research on doctoral SOPs (Samraj & Monk 2008; Chiu 2015, 2016), the statement-of-purpose and apply-sop-writer skills, a scored sub-agent review of a real draft (v2, 2026-11), two admitted SOPs (Stanford CS, Berkeley Chemistry), and a mandatory de-AI pass adapted from humanizer, stop-slop and no-ai-slop.
 ---
 
 # PhD SOP, structured
@@ -98,28 +98,24 @@ Many US programs (e.g. Purdue's Personal History Statement, UC "Personal History
 
 Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (community/diversity) 20; coherent personal arc 15; complements not duplicates the SOP 10; authenticity & specificity 15; clarity, tone & naturalness 15. Also ask for tone risks for the target country's readers and timeline inconsistencies with the SOP.
 
-## De-AI pass (readability and authenticity, not detector evasion)
-1. No three-item lists in a row; prefer two items; keep a triad only if each item carries weight.
-2. No colon reveals ("X changed how I think: …"); state the finding directly.
-3. No sentence ending in a general moral ("because a model is only useful if…").
-4. No "not X but Y" / "rather than only" contrasts unless the contrast is the point.
-5. No "from X to Y" range sweeps.
-6. Sentences ≤30 words where possible; split anything that needs a reread; no lists nested inside lists.
-7. Every "it/this/such" has an obvious referent in the same or previous sentence.
-8. A signature word ("faithful", "trust", "long-run", "robust") at most twice.
-9. Concrete nouns (stress field, rollout, nozzle) over abstract stacks (admissibility, faithfulness, variability).
-10. Each paragraph has at least one plain detail only this applicant could write.
-11. Vary paragraph openings; no run of "I…" or "In…" starts; no listing words like "also" to bolt on a project.
-12. Read aloud: anything you would not say to a professor in person gets rewritten.
-13. Delete any sentence whose removal loses no fact.
-14. Keep the applicant's own phrasing where it is clear, even if less polished; the most authentic fix is the applicant rewriting key paragraphs in their own words.
-15. Detectors (e.g. GPTZero) judge statistical predictability; trimming words rarely changes their verdict. Aim for clear, specific prose and honest disclosure, not detector scores.
+## De-AI pass (mandatory, automatic)
+**Run it on every draft, revision, translation and short answer this skill produces, without waiting for the user to ask.** The full rules are in `references/de-ai.md` (distilled from humanizer, stop-slop, no-ai-slop and the applicant's own corrections). The ones that matter most in SOPs:
+1. No banned words (delve, leverage, foster, robust, pivotal, passionate, journey…) and no empty adverbs (really, truly, deeply, successfully…).
+2. No "not X but Y" contrasts, colon reveals, self-answered questions, trailing "-ing" analysis, or moral kickers at the end of a paragraph.
+3. No self-narrating method or virtue ("I start from problems they already know"); show one episode instead.
+4. Name the actor: "I designed", not "the project led me to".
+5. Prefer two items to three; sentences ≤30 words; vary length and paragraph openings; no em dashes in short texts.
+6. Every "it/this" has an obvious referent; a signature word at most twice; concrete nouns over abstract stacks.
+7. Portability test: a sentence that could sit in another applicant's statement is cut or made specific, with facts the applicant already gave. Never invent.
+8. Keep the applicant's own clear phrasing; make the minimum effective edit.
+9. Final read: "what makes this obviously AI?", fix, repeat once; then check facts did not drift and the Chinese copy still matches.
+10. Report a one-line de-AI score (directness, rhythm, trust, authenticity, density; each /10, revise below 40/50) with every delivered draft.
 
 ## Workflow
 1. **Intake**: prompt, limit, required companion documents (personal statement? proposal?), faculty list; 2–3 strongest experiences; confirm facts with the user.
 2. **Verify** each faculty claim from abstracts/homepages; record sources.
-3. **Draft** with the template and hard rules.
-4. **Score** with an independent sub-agent (prompt below); apply fixes; re-run the de-AI pass.
+3. **Draft** with the template and hard rules, then run the de-AI pass (`references/de-ai.md`) before showing anything.
+4. **Score** with an independent sub-agent (prompt below); apply fixes; run the de-AI pass again.
 5. **Deliver**: English text, a Chinese side-by-side if the user wants it, a list of facts needing confirmation, PDF if the portal needs an upload, plus **three interview talking points and the two questions a committee is most likely to ask** from the SOP.
 
 ### Sub-agent review prompt (score /100)
@@ -134,7 +130,7 @@ Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (commu
 - For the primary advisor: is there a specific recent paper, and a link to something the applicant actually did?
 - Faculty paragraphs pass the school-swap test, with verified details and gap→gains?
 - Close adds nothing new and contains no family/geography?
-- De-AI pass done; a reader can state the core question and strongest evidence after one read?
+- De-AI pass from `references/de-ai.md` done and its score reported; a reader can state the core question and strongest evidence after one read?
 
 ## Sources and related skills
-Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; two admitted SOPs shared as samples (Stanford CS 2018; UC Berkeley Chemistry, Fall 2026), distilled into moves, not copied; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `humanizer` covers general de-AI patterns.
+Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; two admitted SOPs shared as samples (Stanford CS 2018; UC Berkeley Chemistry, Fall 2026), distilled into moves, not copied; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `references/de-ai.md` holds the full de-AI rules, adapted from `humanizer` (blader), `stop-slop` (Hardik Pandya) and `no-ai-slop` (Peter Yang), all MIT.

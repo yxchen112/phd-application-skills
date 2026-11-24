@@ -13,7 +13,7 @@ description: 申博 Research Proposal（RP）全流程 skill（中英双语）�
 - 还没选题，只有导师主页：先用 `advisor-topic-rp` 做选题对比（只取它的选题、核实、套磁邮件部分；它的七段式结构、RQ1 标签、"理论框架"一节与本 skill 冲突，以本 skill 为准）。
 - 只需要套磁邮件：`advisor-topic-rp` 第 9 节或 `apply-cold-email-drafter`。
 - 面试准备深挖：`apply-interview-prep`；本 skill 只做 RP 配套的高频问题。
-- 去 AI 味、反防御性：规则已并入 [references/04-writing-rules.md](references/04-writing-rules.md)；需要逐句清理时再调 `humanizer`、`anti-defensive-writing`。
+- **去 AI 味是每次必做的默认步骤，不用等用户提**：每份草稿、每次修改、每次中译英后，都按 [references/08-de-ai.md](references/08-de-ai.md) 过一遍（融合 humanizer、stop-slop、no-ai-slop 和用户亲手改过的句子），交付时附一行去 AI 打分。反防御性见 [references/04-writing-rules.md](references/04-writing-rules.md)，需要时再调 `anti-defensive-writing`。
 
 ## 不可违反的规则
 
@@ -81,6 +81,7 @@ description: 申博 Research Proposal（RP）全流程 skill（中英双语）�
 | references/02-structure-and-length.md | 固定框架、每节写什么、字数预算、表格与图的规矩 |
 | references/03-method-design.md | 方法选择论证、数据分工、公平比较、可行性、假设 |
 | references/04-writing-rules.md | 去 AI 味、反防御性、术语一致、通俗化、中英版规则 |
+| references/08-de-ai.md | 强制去 AI 清单（词、句式、节奏、终读、打分），每次交付前自动执行 |
 | references/05-literature-verification.md | 文献核实流程、常见错误、403 时怎么办 |
 | references/06-review-loop.md | 审稿评分表、子智能体提示词、外部意见取舍、常见扣分点 |
 | references/07-build-and-deliver.md | 构建命令、版面检查清单、教程结构、导师消息模板 |
