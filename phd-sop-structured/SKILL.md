@@ -25,7 +25,8 @@ An SOP is a **science story, not a life story**. In one read, the committee want
 9. The plan paragraph names **a first question, the systems/data to test it on, and the method family**, reusing the applicant's existing evidence. Pitch it as a first-year project: narrower than the field, broader than one experiment, open to change.
 
 ### Faculty and fit (≈20%)
-10. Name one primary advisor and at most two others. For each: one specific, **verified** recent result → what you would do with them building on it → why it matters. Confirm they are active and recruiting.
+10. **Never presume an advisor relationship.** Write "I would most like to work in X's group" or "I hope to learn … in his group", not "working with X and Y would let me…" or "his group would teach me". A secondary faculty member, especially in another department, is someone whose work you want to learn from, unless they have agreed to co-advise. In a personal statement, say "applying to", not "choosing", before admission.
+10b. Name one primary advisor and at most two others. For each: one specific, **verified** recent result → what you would do with them building on it → why it matters. Confirm they are active and recruiting.
 11. **Gap → gains inside the faculty paragraph**: name one honest gap (a method, theory, skill) and how this person/program closes it.
 12. **School-swap test**: if the paragraph still works with another school's name, rewrite it. No brochure echo ("world-class faculty", "vibrant environment"), no praise of a country/city, no university-wide resource unless its name is verified and tied to a need.
 
@@ -130,6 +131,8 @@ Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (commu
 - For the primary advisor: is there a specific recent paper, and a link to something the applicant actually did?
 - Faculty paragraphs pass the school-swap test, with verified details and gap→gains?
 - Close adds nothing new and contains no family/geography?
+- Timeline: does every paragraph out of chronological order carry an explicit date ("In the summer of 2025"), with no "again"/"then" implying a false order? Do dates, the order of methods and "first time" claims match the companion statement?
+- No sentence presumes a faculty member will advise or collaborate?
 - De-AI pass from `references/de-ai.md` done and its score reported; a reader can state the core question and strongest evidence after one read?
 
 ## Sources and related skills
