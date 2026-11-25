@@ -62,6 +62,18 @@ Distilled from an admitted Stanford CS SOP (2018, data science; many papers, cli
 - Sentences over 35 words, and abstract noun stacks.
 - In these samples the strength of the evidence carried the weak prose. An applicant with less evidence cannot count on that.
 
+## Lessons from MIT CommKit, Lucy Lai, Wordvice and Scott Cowley (2026-11)
+1. **Paragraph-1 test**: a reader who stops after paragraph 1 should know the research topic and believe the applicant is qualified (one concrete credential); paragraph 2 adds evidence; fit comes after.
+2. **Label every transition AND / BUT / THEREFORE** before writing it: AND = a complementary skill, BUT = a pivot after a limitation (our boundary-finding move), THEREFORE = an experience chosen to reach a goal. A transition that fits none of the three is a list, not a thread.
+3. **Space follows duration and impact**: a multi-year project gets more words than a summer internship; work supervised by a letter writer must appear so the letter and the SOP corroborate each other.
+4. **Name the methodological lane early and check it against the department**: state the tentative area and method family by paragraph 2, but make sure the faculty mix in that department actually includes this lane, so the statement does not exclude the applicant from an open slot.
+5. **Hindsight framing**: write what the experience showed, not when the applicant realised it; replace "I became more curious" with the action ("I read the literature and proposed two alternatives").
+6. **No ownership inflation**: never present a class exercise or an assisted task as independent research; say "I designed/ran/wrote" only for what the applicant owned (Wordvice). Non-lab work counts if it involved research decisions (MIT EECS).
+7. **Write for a cross-field reader**: faculty outside the subfield read SOPs; keep jargon to what a mechanical-engineering generalist knows, define model names once.
+8. **Proportions check** (Lucy Lai): about 50% prior research, 25% PhD plans, 25% school-specific; main content on page 1 (Cowley).
+9. **Interview-ready plan**: the first PhD question must be something the applicant can defend as one concrete experiment in an interview (what data, what comparison, what would count as success); interviewers also ask for the favourite project, what you would do differently, and where you expect to struggle — prepare those from the SOP.
+10. **Faculty contact is field-dependent**: specific one- or two-question emails, expect about half to reply, and never rely on contact for admission (Lucy Lai, MIT EECS).
+
 ## Paragraph template (slots, not text to copy)
 The bracketed labels are **slot names**. Never paste phrases like "I believe [X] is the place…" or "In graduate school, I hope to further…".
 1. [Interest + topic] S1 interest, or the capability gap from your own work ("I could X but could not Y"). S2 topic. Then what the topic is, why it matters and what solving it enables. No "from X to Y" sweeps, no moral closers.
@@ -137,4 +149,4 @@ Sub-agent PHS rubric (/100): prompt 1 with concrete evidence 25; prompt 2 (commu
 - De-AI pass from `references/de-ai.md` done and its score reported; a reader can state the core question and strongest evidence after one read?
 
 ## Sources and related skills
-Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; two admitted SOPs shared as samples (Stanford CS 2018; UC Berkeley Chemistry, Fall 2026), distilled into moves, not copied; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `references/de-ai.md` holds the full de-AI rules, adapted from `humanizer` (blader), `stop-slop` (Hardik Pandya) and `no-ai-slop` (Peter Yang), all MIT.
+Wordvice "How to Write a Statement of Purpose for Grad School"; Lucy Lai "All About PhD Applications"; MIT Communication Lab CommKits (Biological Engineering personal statement; EECS statement of purpose); Scott Cowley's PhD statement-of-purpose guide; two admitted SOPs shared as samples (Stanford CS 2018; UC Berkeley Chemistry, Fall 2026), distilled into moves, not copied; Samraj & Monk (2008) *ESP* 27:193–211; Chiu (2015) *JEAP* 17:63–73; Chiu (2016) *JEAP* 21:48–59. If installed, the `statement-of-purpose` and `apply-sop-writer` skills have deeper references (move framework, fluency guides, prose craft, statement conventions by system); `references/de-ai.md` holds the full de-AI rules, adapted from `humanizer` (blader), `stop-slop` (Hardik Pandya) and `no-ai-slop` (Peter Yang), all MIT.
